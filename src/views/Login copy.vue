@@ -12,9 +12,6 @@
                 <p id="flag" class="tishi"></p>
             </div>
 
-            <!-- <div class="getface">
-                <img id="imgTag" src alt="imgTag" style="display: none;" />
-            </div>-->
             <el-button type="primary" icon="el-icon-camera-solid" @click="openCamera">点击打开</el-button>
             <el-button type="primary" icon="el-icon-camera-solid" @click="closeCamera">关闭</el-button>
             <!--图片展示-->
@@ -62,7 +59,7 @@ export default {
                 //设置延迟执行
                 this.photograph();
                 this.$refs['video'].load();
-                console.log('---------------------');
+              //  console.log('---------------------');
             }, 5000);
              this.$refs['video'].load();
         },

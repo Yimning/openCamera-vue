@@ -1,11 +1,6 @@
-# openCamera-vue
+# vue-hello
 
 ## Project setup
-```
- cnpm install tracking --save
-```
-
-
 ```
 npm install
 ```

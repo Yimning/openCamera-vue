@@ -9,7 +9,7 @@ export default new Vuex.Store({
     userInfo: JSON.parse(sessionStorage.getItem("userInfo"))
   },
   mutations: {
-    // set
+    // set方法
     SET_TOKEN: (state, token) => {
       state.token = token,
         localStorage.setItem("token", token)
@@ -27,7 +27,7 @@ export default new Vuex.Store({
 
   },
   getters: {
-    // get
+    // get方法
     getUser: state => {
       return state.userInfo
     }
