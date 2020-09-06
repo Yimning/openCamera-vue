@@ -7,7 +7,7 @@
                 </el-breadcrumb-item>
             </el-breadcrumb>
         </div>
-        <div class="container">
+        <div class="container">  
             <div align="center">
                 <p id="flag" class="tishi"></p>
             </div>
@@ -97,6 +97,7 @@ export default {
             let that = this;
             that.tracker_fun(tracker, video, context, canvas); //open 摄像头，执行tracker_fun( 传入参数 )
         },
+         //追踪检测人脸-回调
         tracker_fun(tracker, video, context, canvas) {
             let that = this;
             let set_clear;

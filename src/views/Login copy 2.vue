@@ -29,7 +29,7 @@
       tracker.on('track', (event) => {
         if (event.data.length > 0) {
         console.log('有头像')
-        //人脸位置矩形顶点
+        //人脸位置矩形顶点 
         console.log(event.data)
         } else {
         console.log('没有头像')
