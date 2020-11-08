@@ -93,7 +93,7 @@ export default {
                 .catch(function (PermissionDeniedError) {
                     console.log(PermissionDeniedError);
                 });
-            //--------------
+            //
             let that = this;
             that.tracker_fun(tracker, video, context, canvas); //open 摄像头，执行tracker_fun( 传入参数 )
         },
