@@ -55,9 +55,9 @@ export default {
                 .catch((error) => {
                     console.error('摄像头开启失败，请检查摄像头是否可用！');
                 });
-            setTimeout(() => {
+            setTimeout(() => {  
                 //设置延迟执行
-                this.photograph();
+                this.photograph();  //5秒后自动执行一次
                 this.$refs['video'].load();
               //  console.log('---------------------');
             }, 5000);
