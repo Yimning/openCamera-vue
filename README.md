@@ -1,4 +1,4 @@
-# vue-hello
+# openCamera-vue
 
 ## Project setup
 ```
